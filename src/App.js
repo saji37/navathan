@@ -8,12 +8,13 @@ function App() {
     <div className="bg"></div>
 
 <div className="star-field">
-<Welcome />
+
 <div className="layer"></div>
 <div className="layer"></div>
 <div className="layer"></div>
    
    </div>
+   <Welcome />
    </div>
   );
 }
