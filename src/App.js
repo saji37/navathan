@@ -4,7 +4,17 @@ import { motion } from "framer-motion";
 import Welcome from './Welcome';
 function App() {
   return (
-   <Welcome />
+   <div>
+    <div className="bg"></div>
+
+<div className="star-field">
+<Welcome />
+<div className="layer"></div>
+<div className="layer"></div>
+<div className="layer"></div>
+   
+   </div>
+   </div>
   );
 }
 
