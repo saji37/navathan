@@ -3,14 +3,11 @@
 .greeting{
     font-family:'Bungee Shade', cursive;
     color: white;
+    padding-top: 40px;
+    padding-left: 15%;
     
 }
-.welcome{
-    font-size: 20px;
-    padding-top: 40px;
-    padding-left: 20%;
 
-}
 .nav{
     font-size: 30px;
     padding-top: 10px;
