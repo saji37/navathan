@@ -15,10 +15,11 @@ function App() {
 <div className="layer"></div>
    
    </div>
-   <div style={{display:'flex'}}>  
+   <div style={{display:'flex'}}>
+        
    <Welcome /> 
    <motion.div
-   animate={{scale:0.5, x:'10px',y:'-60px'}}
+   initial={{scale:0.2, x:'-20px',y:'-80px',opacity:0.4}}
    transition={{delay:1}}
    
    > 
