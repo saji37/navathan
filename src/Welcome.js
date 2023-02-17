@@ -2,8 +2,9 @@ import React from 'react'
 
 function Welcome() {
   return (
-    <div>
-      <h1>Welcome</h1>
+    <div className='App'>
+      <h1 className='text-center'>WELCOME TO NAVATHAN</h1>
+
     </div>
   )
 }

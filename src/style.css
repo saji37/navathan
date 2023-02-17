@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+.App {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 48px;
+    user-select: none;
+  }
