@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 
 .greeting{
-    font-family:'Fredericka the Great', cursive;
+    font-family:'Bungee Shade', cursive;
     color: white;
     
 }
 .welcome{
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 40px;
 
+}
+.nav{
+    font-size: 30px;
+    padding-top: 10px;
 }
