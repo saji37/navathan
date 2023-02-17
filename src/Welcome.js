@@ -7,7 +7,7 @@ function Welcome() {
     <motion.div
     initial={{ x: "-1000px", opacity: 10 }}
     animate={{ x: 10, opacity: 20 }}
-    transition={{type:"waves",delay:1}}
+    transition={{type:"waves",delay:1,duration:1}}
     // exit={{ y: '-1000px', opacity: 0 }}
   >
     <div className='greeting'>
@@ -19,7 +19,7 @@ function Welcome() {
 <motion.div
 initial={{ y: "1000px", opacity: 10 }}
 animate={{ y: 10, opacity: 20 }}
-transition={{type:"waves",delay:3}}
+transition={{type:"waves",delay:3,duration:1}}
 
 // exit={{ y: '-1000px', opacity: 0 }}
 >
