@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+.greeting{
+    font-family:'Fredericka the Great', cursive;
+    color: white;
+    
+}
+.welcome{
+    font-size: 40px;
+    padding-top: 40px;
+
+}
