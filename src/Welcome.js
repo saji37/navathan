@@ -42,6 +42,21 @@ transition={{type:"spring",delay:3,duration:1}}
 
 
 </motion.div>
+
+
+<motion.div
+initial={{ x:150,y:-40, opacity: 0,scale:0 }}
+animate={{ opacity: 1,scale:1 }}
+transition={{type:"spring",delay:4,duration:1}}
+
+// exit={{ y: '-1000px', opacity: 0 }}
+>
+
+ <h1 className='venue'>Venue:APJ
+  Date:23/02/2023</h1>
+
+
+</motion.div>
 </div>
   )
 }
