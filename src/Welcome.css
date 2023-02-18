@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Julee');
 
 .greeting{
-    font-family:'Bungee Shade', cursive;
+    font-family:'Monoton', cursive;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 15%;
     
 }
 
 .nav{
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 70%;
+}
+.era{
+    font-family:'Julee', cursive;
+    color: white;
+    padding-top: 10px;
+    /* padding-left: 50px;  */
 }
