@@ -3,6 +3,7 @@ import './App.css';
 import { motion } from "framer-motion";
 import Welcome from './Welcome';
 import Spaceguy from './Spaceguy';
+ import Venue from './Venue';
 function App() {
   return (
    <div>
@@ -28,7 +29,7 @@ function App() {
 
 
    </div>
-
+   <Venue />
    </div>
   );
 }

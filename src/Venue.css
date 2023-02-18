@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.venue{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Quicksand', sans-serif;
+    }
+
+.venue{
+     transform: translateY(-50%);
+    width: 100%;  text-align: center;  text-transform: uppercase;
+    font-size: 50px;
+    background: linear-gradient(90deg , transparent 40%, #fff ,transparent 60%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 5s linear;
+} 
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -200% 0;
+    }
+}
