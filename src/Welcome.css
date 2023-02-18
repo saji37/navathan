@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 @import url('https://fonts.googleapis.com/css?family=Julee');
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
 
 .greeting{
     font-family:'Monoton', cursive;
@@ -25,6 +26,13 @@
     color: white;
     font-size: 20px;
     padding-top: 30px;
-    font-family:'Architects Daughter', cursive;
+    font-family:'Aladin', cursive;
 
+}
+.event{
+    font-size: 20px;
+    font-family:'Kalam', cursive;
+}
+.count{
+    font-size: 50%;
 }

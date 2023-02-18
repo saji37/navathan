@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 import Welcome from './Welcome';
 import Spaceguy from './Spaceguy';
  import Count from "./Count";
+ import './Welcome.css'
 function App() {
   return (
    <div>
     <div className="bg"></div>
+   <div>
 
 <div className="star-field">
 
@@ -28,10 +30,23 @@ function App() {
       </motion.div>
 
 </div>
-   <div className="App">
-      <h1 style={{color:'white'}}>Event starts in  </h1>
-    <div style={{color:'white'}}>  <Count /></div>
+<div className="App">
+<motion.div
+    initial={{ x: "-60px", y:"5px" ,opacity: 0,scale:1}}
+    animate={{ x: 10, opacity: 1 }}
+    transition={{type:"waves",duration:2.5,delay:3}}
+    >
+      <h1 className='event' style={{color:'white'}}>Event starts in  </h1>
+    </motion.div>
+   <motion.div
+    initial={{ x: "-60px", y:"5px" ,opacity: 0,scale:1.4}}
+    animate={{ x: 10, opacity: 1 }}
+    transition={{type:"waves",duration:2.5,delay:3}}
+    >
+    <div className='count' style={{color:'white'}}>  <Count /></div>
+    </motion.div>
     </div>
+   </div>
    </div>
   );
 }
