@@ -16,7 +16,7 @@ export default class Count extends Component {
             secondTitle='Seconds'
             titlePosition='top'
                 
-                endAt={'2023-2-23 09:00:00'} // Date/Time
+            endAt={'2023-2-23 10:00:00'} // Date/Time
             />
         );
     }
