@@ -3,12 +3,6 @@ import './App.css';
 import { motion } from "framer-motion";
 import Welcome from './Welcome';
 import Spaceguy from './Spaceguy';
-<<<<<<< Updated upstream
- import Venue from './Venue';
-import Countdown from './Countdown';
-=======
-
->>>>>>> Stashed changes
 function App() {
   return (
    <div>
@@ -34,12 +28,7 @@ function App() {
 
 
    </div>
-<<<<<<< Updated upstream
-   <Venue />
-   <Countdown />
-=======
    
->>>>>>> Stashed changes
    </div>
   );
 }

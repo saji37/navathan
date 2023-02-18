@@ -52,7 +52,7 @@ transition={{type:"spring",delay:4,duration:1}}
 // exit={{ y: '-1000px', opacity: 0 }}
 >
 
- <h1 className='venue'>Venue:APJ
+ <h1 className='venue'>Venue:APJ HALL
   Date:23/02/2023</h1>
 
 
