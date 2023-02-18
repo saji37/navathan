@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Welcome from './Welcome';
 import Spaceguy from './Spaceguy';
  import Venue from './Venue';
+import Countdown from './Countdown';
 function App() {
   return (
    <div>
@@ -30,6 +31,7 @@ function App() {
 
    </div>
    <Venue />
+   <Countdown />
    </div>
   );
 }
