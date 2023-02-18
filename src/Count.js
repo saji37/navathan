@@ -11,10 +11,11 @@ export default class Count extends Component {
             hideYear
             hideMonth
             dayTitle='Days'
-                hourTitle='Hours'
-                minuteTitle='Minutes'
-                secondTitle='Seconds'
-                titlePosition='top'
+            hourTitle='Hours'
+            minuteTitle='Minutes'
+            secondTitle='Seconds'
+            titlePosition='top'
+                
                 endAt={'2023-2-23 09:00:00'} // Date/Time
             />
         );
