@@ -1,14 +1,22 @@
-import React from "react";
-import Clock from "./Clock";
+import React, { Component } from 'react';
 
-const App = () => {
-  let deadline = "February, 23, 2023";
+import FlipCountdown from '@rumess/react-flip-countdown';
 
-  return (
-    <div className="App">
-      <Clock deadline={deadline} />
-    </div>
-  );
-};
-
-export default App;
+export default class Count extends Component {
+    render() {
+        return (
+            <FlipCountdown
+            theme='dark'
+            size='large'
+            hideYear
+            hideMonth
+            dayTitle='Days'
+                hourTitle='Hours'
+                minuteTitle='Minutes'
+                secondTitle='Seconds'
+                titlePosition='top'
+                endAt={'2023-2-23 09:00:00'} // Date/Time
+            />
+        );
+    }
+}

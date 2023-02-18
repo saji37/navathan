@@ -29,8 +29,8 @@ function App() {
 
 </div>
    <div className="App">
-      <h1 style={{color:'white'}}>Event starts in</h1>
-      <Count />
+      <h1 style={{color:'white'}}>Event starts in  </h1>
+    <div style={{color:'white'}}>  <Count /></div>
     </div>
    </div>
   );

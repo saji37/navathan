@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rumess/react-flip-countdown": "^1.2.6",
     "bootstrap": "^5.2.3",
     "cra-template": "1.2.0",
     "framer-motion": "^9.0.4",
