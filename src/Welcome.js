@@ -5,21 +5,21 @@ function Welcome() {
   return (
     <div>
     <motion.div
-    initial={{ x: "-50px", opacity: 10 }}
-    animate={{ x: 10, opacity: 20 }}
-    transition={{type:"waves",delay:1,duration:3}}
+    initial={{ x: "-50px", y:"5px" ,opacity: 0 }}
+    animate={{ x: 10, opacity: 1 }}
+    transition={{type:"waves",duration:3}}
     // exit={{ y: '-1000px', opacity: 0 }}
   >
     <div className='greeting'>
-     <center><h1 style={{fontSize:'40px'}}>WELCOME TO </h1></center> 
+     <center><h1 style={{fontSize:'30px'}}>WELCOME TO </h1></center> 
 
     </div>
     </motion.div>
 
 <motion.div
-initial={{ x: "10px", opacity: 10 }}
-animate={{ x: '-20px',y:'-30px', opacity: 20 }}
-transition={{type:"waves",delay:3}}
+initial={{ x: "10px",y:"5px", opacity: 0 }}
+animate={{ x: '-20px',y:'-30px', opacity: 1 }}
+transition={{type:"waves",delay:2,duration:2}}
 
 // exit={{ y: '-1000px', opacity: 0 }}
 >
@@ -27,6 +27,20 @@ transition={{type:"waves",delay:3}}
   <h1 className='nav'>NAVATHAN</h1>
 
 </div>
+</motion.div>
+
+
+<motion.div
+initial={{ x:150,y:-40, opacity: 0 }}
+animate={{ opacity: 1 }}
+transition={{type:"spring",delay:3,duration:1}}
+
+// exit={{ y: '-1000px', opacity: 0 }}
+>
+
+  <h1 className='era'>Era of new game</h1>
+
+
 </motion.div>
 </div>
   )
