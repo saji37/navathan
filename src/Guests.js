@@ -3,7 +3,7 @@ import './Guests.css'
 function Guests() {
   return (
     <div className='container'>
-      <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleInterval" className="carousel slide"  data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="3000">
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
@@ -15,7 +15,7 @@ function Guests() {
     <div className="carousel-item" data-bs-interval="3000">
     <div className='card d-block w-100'>
         <h3>Mr. Prakash Pelthaje</h3>
-        <h6>HOD, Dept of BCA, Vivekananda Degree College Puttur</h6>
+        <h6>HOD,Department of BCA, Vivekananda Degree College Puttur</h6>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="3000">
@@ -33,7 +33,7 @@ function Guests() {
     <div className="carousel-item" data-bs-interval="3000">
     <div className='card d-block w-100'>
         <h3>Dr. Vandana B S</h3>
-        <h6>HOD,Dept of MCA, VCET Puttur</h6>
+        <h6>Director,Department of MCA, VCET Puttur</h6>
       </div>
     </div>
   
