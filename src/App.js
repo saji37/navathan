@@ -5,6 +5,7 @@ import Welcome from './Welcome';
 import Spaceguy from './Spaceguy';
  import Count from "./Count";
  import './Welcome.css'
+import Guests from './Guests';
 function App() {
   return (
    <div>
@@ -47,6 +48,7 @@ function App() {
     </motion.div>
     </div>
    </div>
+   <Guests />
    </div>
   );
 }
