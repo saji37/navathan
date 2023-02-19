@@ -6,9 +6,24 @@ import Spaceguy from './Spaceguy';
  import Count from "./Count";
  import './Welcome.css'
 import Guests from './Guests';
+import { useState } from 'react';
+import './loading.scss'
 function App() {
+  const [isloading,setIsLoading]=useState(true)
+  setTimeout(()=>{
+    setIsLoading(false)
+  },4000)
   return (
-   <div>
+  
+   <div>{
+    isloading?
+    <div className="cont">
+  <div className="spinner"></div>
+  <span className="number"></span>
+</div>
+    :
+
+    <>
     <div className="bg"></div>
    <div>
 
@@ -48,7 +63,24 @@ function App() {
     </motion.div>
     </div>
    </div>
-   <Guests />
+   <motion.div
+    initial={{y:30,x:10,opacity: 0}}
+    animate={{ opacity: 1 }}
+    transition={{duration:2.5,delay:4}}
+    >
+      <h1 className='event' style={{color:'white'}}>Honarable Guests  </h1>
+    </motion.div>
+    <motion.div
+    initial={{y:-20,opacity: 0}}
+    animate={{ opacity: 1 }}
+    transition={{duration:2.5,delay:4}}
+    >
+     <Guests />
+    </motion.div>
+      
+   
+   
+   </>}
    </div>
   );
 }
