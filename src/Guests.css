@@ -1,4 +1,6 @@
 /* From https://css.glass */
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
 .card{
 background: rgba(255, 255, 255, 0.44);
 border-radius: 10px;
@@ -9,4 +11,11 @@ border: 1px solid rgba(255, 255, 255, 1);
 padding: 50px;
 margin-top: 50px;
 min-height: 210px;
+}
+#guest{
+    font-family:Carter One;
+    font-size: 20px;
+}
+#desg{
+    font-family: Merienda;
 }

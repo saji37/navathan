@@ -79,11 +79,12 @@
       animation: count 10s infinite steps(10, start);
   
       @keyframes count {
-        0%, 40% { content: '0'; }
+        
       
         10% { content: '3'; }
         20% { content: '2'; }
         30% { content: '1'; }
+        40% { content: '0'; }
       }
     }
   }

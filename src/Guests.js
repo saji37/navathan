@@ -8,32 +8,32 @@ function Guests() {
     <div className="carousel-item active" data-bs-interval="3000">
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
       <div className='card d-block w-100'>
-        <h3>Dr. Vishnu Ganapathi Bhat</h3>
-        <h6>Principal, Vivekananda Degree College Nehru Nagara Puttur</h6>
+        <h3 id='guest'><b>Dr. Vishnu Ganapathi Bhat</b></h3><br/>
+        <h6 id='desg'><b>Principal, Vivekananda Degree College Nehru Nagara Puttur</b></h6>
+      </div>
+    </div>
+    <div className="carousel-item" data-bs-interval="3000">
+    <div className='card d-block w-100' >
+        <h3 id='guest'><b>Mr. Prakash Pelthaje</b></h3><br/>
+        <h6 id='desg'><b>HOD, Department of BCA, Vivekananda Degree College Puttur</b></h6>
+      </div>
+    </div>
+    <div className="carousel-item" data-bs-interval="3000">
+    <div className='card d-block w-100' >
+        <h3 id='guest'><b>Sri Ravikrishna D Kallaje</b></h3><br/>
+        <h6 id='desg'><b>Director, VCET Governing Council Puttur</b></h6>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="3000">
     <div className='card d-block w-100'>
-        <h3>Mr. Prakash Pelthaje</h3>
-        <h6>HOD,Department of BCA, Vivekananda Degree College Puttur</h6>
+        <h3 id='guest'><b>Dr. Mahesh Prasanna K</b></h3><br/>
+        <h6 id='desg'><b>Principal, VCET Puttur</b></h6>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="3000">
     <div className='card d-block w-100'>
-        <h3>Sri Ravikrishna D Kallaje</h3>
-        <h6>Director, VCET Governing Council Puttur</h6>
-      </div>
-    </div>
-    <div className="carousel-item" data-bs-interval="3000">
-    <div className='card d-block w-100'>
-        <h3>Dr. Mahesh Prasanna K</h3>
-        <h6>Principal, VCET Puttur</h6>
-      </div>
-    </div>
-    <div className="carousel-item" data-bs-interval="3000">
-    <div className='card d-block w-100'>
-        <h3>Dr. Vandana B S</h3>
-        <h6>Director,Department of MCA, VCET Puttur</h6>
+        <h3 id='guest'><b>Dr. Vandana B S</b></h3><br/>
+        <h6 id='desg'><b>Director,Department of MCA, VCET Puttur</b></h6>
       </div>
     </div>
   

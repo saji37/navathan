@@ -50,14 +50,14 @@ function App() {
 <motion.div
     initial={{ x: "-60px", y:"5px" ,opacity: 0,scale:1}}
     animate={{ x: 10, opacity: 1 }}
-    transition={{type:"waves",duration:2.5,delay:3}}
+    transition={{duration:2.5,delay:3}}
     >
       <h1 className='event' style={{color:'white'}}>Event starts in  </h1>
     </motion.div>
    <motion.div
     initial={{ x: "-60px", y:"5px" ,opacity: 0,scale:1.4}}
     animate={{ x: 10, opacity: 1 }}
-    transition={{type:"waves",duration:2.5,delay:3}}
+    transition={{duration:2.5,delay:4}}
     >
     <div className='count' style={{color:'white'}}>  <Count /></div>
     </motion.div>
@@ -66,14 +66,14 @@ function App() {
    <motion.div
     initial={{y:30,x:10,opacity: 0}}
     animate={{ opacity: 1 }}
-    transition={{duration:2.5,delay:4}}
+    transition={{duration:2.5,delay:4.5}}
     >
       <h1 className='event' style={{color:'white'}}>Honarable Guests  </h1>
     </motion.div>
     <motion.div
     initial={{y:-20,opacity: 0}}
     animate={{ opacity: 1 }}
-    transition={{duration:2.5,delay:4}}
+    transition={{duration:2.5,delay:4.5}}
     >
      <Guests />
     </motion.div>

@@ -45,15 +45,15 @@ transition={{type:"spring",delay:3,duration:1}}
 
 
 <motion.div
-initial={{ x:100,y:-40, opacity: 0,scale:0 }}
-animate={{ opacity: 1,scale:1 }}
-transition={{type:"spring",delay:4,duration:1}}
+initial={{ x:100,y:-40 ,scale:0 }}
+animate={{ scale:1 }}
+transition={{type:"spring",delay:3.5,duration:1}}
 
 // exit={{ y: '-1000px', opacity: 0 }}
 >
 
- <h1 className='venue'>Venue:APJ HALL
-  Date:23/02/2023</h1>
+ <h1 className='venue'>VENUE &nbsp;: &nbsp;APJ&nbsp;HALL<br />
+  DATE  &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;23/02/2023</h1>
 
 
 </motion.div>
