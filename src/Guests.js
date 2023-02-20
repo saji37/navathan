@@ -3,19 +3,19 @@ import './Guests.css'
 function Guests() {
   return (
     <div className='container'>
-      <div id="carouselExampleInterval" className="carousel slide"  data-ride="carousel">
+      <div id="carouselExampleInterval" className="carousel slide"  data-mdb-ride="carousel" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="3000">
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
       <div className='card d-block w-100'>
-        <h3 id='guest'><b>Dr. Vishnu Ganapathi Bhat</b></h3><br/>
-        <h6 id='desg'><b>Principal, Vivekananda Degree College Nehru Nagara Puttur</b></h6>
+        <h3 id='guest'><b>Prof. Vishnu Ganapathi Bhat</b></h3><br/>
+        <h6 id='desg'><b>Principal, Vivekananda College of arts,science and commerce Puttur</b></h6>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="3000">
     <div className='card d-block w-100' >
-        <h3 id='guest'><b>Mr. Prakash Pelthaje</b></h3><br/>
-        <h6 id='desg'><b>HOD, Department of BCA, Vivekananda Degree College Puttur</b></h6>
+        <h3 id='guest'><b>Sri P Prakash Kumar</b></h3><br/>
+        <h6 id='desg'><b>HOD, Department of Computer Science, Vivekananda College of arts,science and commerce Puttur</b></h6>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="3000">

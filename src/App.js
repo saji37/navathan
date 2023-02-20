@@ -57,7 +57,7 @@ function App() {
    <motion.div
     initial={{ x: "-60px", y:"5px" ,opacity: 0,scale:1.4}}
     animate={{ x: 10, opacity: 1 }}
-    transition={{duration:2.5,delay:4}}
+    transition={{duration:1,delay:4}}
     >
     <div className='count' style={{color:'white'}}>  <Count /></div>
     </motion.div>
